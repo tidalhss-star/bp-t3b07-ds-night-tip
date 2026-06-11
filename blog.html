@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>블로그 | 당산 유흥 꿀팁</title>
+    <meta name="description" content="당산 유흥의 모든 것. 진짜 유흥꾼들이 알려주는 당산 유흥 꿀팁, 숨은 맛집, 핫플레이스 완벽 정리. 지금 바로 확인하세요.">
+    <meta name="keywords" content="당산 유흥, 당산 유흥 꿀팁, 당산 술집, 당산 클럽, 당산, 유흥, 당산 유흥정보">
+    <link rel="canonical" href="https://t3b07-ds-night-tip.vercel.app">
+    <meta name="bpaas-design-system" content="brutalist-avantgarde">
+    <meta name="bpaas-design-theme" content="kr-raw-concrete">
+    <!-- OG Meta -->
+    <meta property="og:title" content="당산 유흥 꿀팁 | 블로그">
+    <meta property="og:description" content="당산 유흥의 모든 것. 진짜 유흥꾼들이 알려주는 당산 유흥 꿀팁, 숨은 맛집, 핫플레이스 완벽 정리.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://t3b07-ds-night-tip.vercel.app">
+    <meta property="og:image" content="https://t3b07-ds-night-tip.vercel.app/og-image.jpg">
+    <style>
+        /* RESET */
+        *, *::before, *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html {
+            scroll-behavior: smooth;
+            font-size: 16px;
+        }
+        body {
+            font-family: 'Arial Black', 'Impact', 'Helvetica Neue', sans-serif;
+            background: #1a1a1a;
+            color: #f0f0f0;
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+        /* BRUTALIST RAW TEXTURE */
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: repeating-linear-gradient(
+                0deg,
+                rgba(255,255,255,0.02) 0px,
+                rgba(255,255,255,0.02) 2px,
+                transparent 2px,
+                transparent 4px
+            );
+            pointer-events: none;
+            z-index: 9999;
+        }
+        /* TYPOGRAPHY */
+        h1, h2, h3, h4 {
+            font-family: 'Arial Black', 'Impact', sans-serif;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        h1 {
+            font-size: 4rem;
+            line-height: 0.9;
+            margin-bottom: 1rem;
+            text-shadow: 4px 4px 0 #ff4d00;
+        }
+        h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+            border-left: 8px solid #ff4d00;
+            padding-left: 1rem;
+        }
+        p, li {
+            font-size: 1.1rem;
+            font-weight: bold;
+            color: #ccc;
+        }
+        a {
+            color: #ff4d00;
+            text-decoration: none;
+            border-bottom: 3px solid transparent;
+            transition: all 0.2s;
+        }
+        a:hover {
+            border-bottom-color: #ff4d00;
+            color: #fff;
+        }
+        /* LAYOUT */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        @media (max-width: 768px) {
+            .container {
+                padding: 1rem;
+            }
+            h1 {
+                font-size: 2.5rem;
+            }
+            h2 {
+                font-size: 1.8rem;
+            }
+        }
+        section {
+            padding: 4rem 0;
+            border-bottom: 4px solid #333;
+        }
+        section:last-child {
+            border-bottom: none;
+        }
+        /* NAV */
+        nav {
+            background: #111;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 4px solid #ff4d00;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        nav .logo {
+            font-size: 1.8rem;
+            font-weight: 900;
+            color: #ff4d00;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 2rem;
+        }
+        nav ul li a {
+            font-size: 1.1rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: #f0f0f0;
+            border-bottom: none;
+            padding: 0.5rem 0;
+        }
+        nav ul li a:hover {
+            color: #ff4d00;
+            border-bottom: 3px solid #ff4d00;
+        }
+        /* Hamburger menu */
+        .hamburger {
+            display: none;
+            flex-direction: column;
+            cursor: pointer;
+            gap: 5px;
+        }
+        .hamburger span {
+            width: 30px;
+            height: 4px;
+            background: #ff4d00;
+            border-radius: 0;
+        }
+        @media (max-width: 768px) {
+            nav ul {
+                display: none;
+                flex-direction: column;
+                width: 100%;
+                background: #111;
+                position: absolute;
+                top: 70px;
+                left: 0;
+                padding: 1rem;
+                border-bottom: 4px solid #ff4d00;
+            }
+            nav ul.active {
+                display: flex;
+            }
+            .hamburger {
+                display: flex;
+            }
+            nav ul li {
+                margin: 0.5rem 0;
+            }
+        }
+        /* Tel link */
+        .tel-link {
+            display: inline-block;
+            background: #ff4d00;
+            color: #111 !important;
+            padding: 0.8rem 2rem;
+            font-weight: 900;
+            font-size: 1.3rem;
+            text-transform: uppercase;
+            border: 4px solid #ff4d00;
+            transition: all 0.2s;
+            margin-top: 1rem;
+        }
+        .tel-link:hover {
+            background: transparent;
+            color: #ff4d00 !important;
+            border-color: #ff4d00;
+        }
+        /* Card */
+        .card {
+            background: #222;
+            border: 4px solid #333;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            transition: all 0.3s;
+        }
+        .card:hover {
+            border-color: #ff4d00;
+            transform: translateX(8px);
+        }
+        .card h3 {
+            font-size: 1.8rem;
+            margin-bottom: 0.5rem;
+        }
+        .card p {
+            margin-bottom: 1rem;
+        }
+        /* Footer */
+        footer {
+            background: #111;
+            padding: 2rem;
+            text-align: center;
+            border-top: 4px solid #ff4d00;
+        }
+        footer p {
+            font-size: 0.9rem;
+            color: #666;
+        }
+        /* Blog post specific */
+        .blog-meta {
+            font-size: 0.9rem;
+            color: #888;
+            margin-bottom: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .blog-content {
+            font-size: 1.2rem;
+            line-height: 1.8;
+        }
+        .blog-content strong {
+            color: #ff4d00;
+        }
+        .highlight-box {
+            background: #2a2a2a;
+            border-left: 8px solid #ff4d00;
+            padding: 1.5rem;
+            margin: 2rem 0;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">당산 유흥 꿀팁</div>
+        <div class="hamburger" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul id="nav-menu">
+            <li><a href="/">홈</a></li>
+            <li><a href="/blog">블로그</a></li>
+            <li><a href="/tips">꿀팁</a></li>
+            <li><a href="/contact">문의</a></li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        <section>
+            <h1>블로그</h1>
+            <p class="blog-meta">2025.03.15 | 작성자: 당산 유흥꾼</p>
+            <article>
+                <h2>당산 유흥, 진짜를 찾는 법</h2>
+                <div class="blog-content">
+                    <p>야, 형들. 당산에서 놀고 싶다고? 그럼 일단 찐따 같은 소리 집어치워. "어디가 좋아요?" 같은 질문은 하지 마. 여긴 당산이야. 뻔한 코스는 죽어도 싫다면, 이 글을 끝까지 읽어라. 내가 진짜 유흥꾼으로서 10년 동안 쌓은 노하우를 다 털어줄 테니까.</p>
+
+                    <p>첫째, <strong>당산역 3번 출구</strong>에서 시작해라. 거길 벗어나면 너는 이미 길을 잃은 거야. 3번 출구 주변에는 숨은 <strong>호프집</strong>들이 포진해 있어. 간판도 없고, 네이버 지도에도 안 뜨는 곳들이 진짜야. 문이 무겁고, 안에서 웃음소리가 들리면 그게 바로 <strong>성지</strong>다.</p>
+
+                    <div class="highlight-box">
+                        <p><strong>🔥 꿀팁:</strong> 그런 집에 들어가면 "사장님, 오늘 뭐 괜찮나요?"라고 묻지 마. 그냥 "오늘 뭐 뜨거운 거 있음?" 이렇게 던져라. 그러면 사장이 눈치를 보고 <strong>진짜 안주</strong>를 내준다. 이게 당산 유흥의 시작이야.</p>
+                    </div>
+
+                    <p>둘째, <strong>클럽?</strong> 당산에 클럽은 없다. 있긴 한데, 다 <strong>가짜야.</strong> 진짜 유흥은 <strong>골목 안</strong>에 있어. 당산동 3가의 뒷골목, 거길 따라 걸어가. 레드 라이트가 깜빡이는 곳이 아니라, <strong>형광등이 깜빡이는 곳</strong>을 찾아라. 거기가 진짜야. 거기선 <strong>소주</strong>가 3천 원이고, <strong>안주</strong>는 서비스로 나와. 단, 사장 기분이 좋을 때만.</p>
+
+                    <p>셋째, <strong>술값을 아끼는 법</strong> 알려줄게. 당산에서 술 마실 때 <strong>카드</strong> 꺼내지 마. 현금을 꺼내서 "사장님, 이거면 되죠?" 하고 <strong>5만 원</strong>을 탁 내밀어. 그럼 사장이 눈 하나 깜빡하지 않고 <strong>소주 3병</strong>이랑 <strong>안주 2개</strong>를 가져와. 이게 당산의 <strong>암묵적인 룰</strong>이야. 배우면 너도 당산 유흥꾼이다.</p>
+
+                    <p>넷째, <strong>여자?</strong> 당산에서 여자를 찾는 건 <strong>실례</strong>야. 여긴 <strong>술과 안주</strong>가 주인공이야. 하지만 만약 운 좋게 옆 테이블에 예쁜 여자가 앉았다면? 그냥 "이거 한잔 하실래요?" 하고 <strong>소주잔</strong>을 건네. 거절하면? "네, 다음에 또 뵙죠." 하고 <strong>박수</strong> 한 번 치고 일어나. 당산에선 <strong>쿨함</strong>이 최고의 무기다.</p>
+
+                    <p>마지막으로, <strong>당산 유흥의 진정한 의미</strong>를 말해줄게. 돈 많이 쓰고, 비싼 술 마시고, 간판 큰 데 가는 게 유흥이 아니야. <strong>진짜 유흥</strong>은 낡은 의자에 앉아, 모르는 사람들과 <strong>소주잔</strong>을 부딪히고, 아무 말 없이 웃는 거야. 그게 당산이고, 그게 <strong>우리 유흥</strong>이야.</p>
+
+                    <p>자, 이제 알겠어? 당산 오면 <strong>3번 출구</strong>로 와. 그리고 <strong>깡패</strong> 같은 마인드로 들어가. 거기서 너를 기다리는 건 <strong>진짜</strong>뿐이다.</p>
+
+                    <p style="margin-top: 2rem; text-align: right; font-style: italic;">- 당산에서 10년 산 유흥꾼 올림</p>
+                </div>
+            </article>
+        </section>
+
+        <section>
+            <h2>당산 유흥, 지금 바로 시작하자</h2>
+            <p>위에 쓴 내용이 부담스럽다면? 그럼 전화해. 내가 직접 <strong>당산 유흥 코스</strong>를 짜줄게. 단, <strong>찌질한 소리</strong> 하면 끊어버린다.</p>
+            <a href="tel:010-1234-5678" class="tel-link">📞 전화 걸기 - 010-1234-5678</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 당산 유흥 꿀팁. 모든 권리는 유흥꾼에게 있다.</p>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            var menu = document.getElementById('nav-menu');
+            menu.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
