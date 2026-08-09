@@ -1,328 +1,326 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="bpaas-design-system" content="brutalist-avantgarde">
-    <meta name="bpaas-design-theme" content="kr-night-teal">
-    <title>당산 유흥 꿀팁 — 상세 정보 + 지역 시그널</title>
-    <meta name="description" content="당산 유흥을 급하게 결정해야 한다면 감상 말고 기준을 봐야 한다. 인원·목적·시간대별로 달라지는 선택지를 눈에 보이는 것과 확인해야 할 것으로 나누어 정리한 가이드.">
-    <meta name="keywords" content="당산 유흥, 당산 유흥 꿀팁, 당산역 유흥, 당산 술집, 당산 놀거리">
-    <link rel="canonical" href="https://dangsan-spot-review.hardcoreroom.com/about.html">
-    <meta property="og:title" content="당산 유흥 꿀팁 — 상세 정보 + 지역 시그널">
-    <meta property="og:description" content="당산 유흥을 급하게 결정해야 한다면 감상 말고 기준을 봐야 한다. 인원·목적·시간대별로 달라지는 선택지를 눈에 보이는 것과 확인해야 할 것으로 나누어 정리한 가이드.">
-    <style>
-        *, *::before, *::after {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        :root {
-            --bg: #0a0f0f;
-            --surface: #111917;
-            --surface2: #18211e;
-            --teal: #0d9488;
-            --teal-glow: #2dd4bf;
-            --teal-dim: #0f766e;
-            --text: #d1d5db;
-            --text-muted: #9ca3af;
-            --border: #1e2b27;
-            --radius: 0.25rem;
-            --font-mono: 'Courier New', monospace;
-            --font-sans: system-ui, -apple-system, sans-serif;
-            --spacing-xs: 0.5rem;
-            --spacing-sm: 1rem;
-            --spacing-md: 1.5rem;
-            --spacing-lg: 2.5rem;
-            --spacing-xl: 4rem;
-        }
-        html {
-            font-size: 16px;
-            scroll-behavior: smooth;
-        }
-        body {
-            background-color: var(--bg);
-            color: var(--text);
-            font-family: var(--font-sans);
-            line-height: 1.7;
-            position: relative;
-            min-height: 100vh;
-            overflow-x: hidden;
-        }
-        body::before {
-            content: "";
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-image: 
-                linear-gradient(rgba(13, 148, 136, 0.03) 1px, transparent 1px),
-                linear-gradient(90deg, rgba(13, 148, 136, 0.03) 1px, transparent 1px);
-            background-size: 40px 40px;
-            pointer-events: none;
-            z-index: 0;
-        }
-        .k-btn-2fpc {
-            position: sticky;
-            top: 0;
-            z-index: 100;
-            background-color: rgba(10, 15, 15, 0.92);
-            backdrop-filter: blur(12px);
-            border-bottom: 2px solid var(--border);
-            padding: var(--spacing-sm) var(--spacing-md);
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            flex-wrap: wrap;
-        }
-        .v-img-1lcz {
-            display: flex;
-            align-items: center;
-            gap: var(--spacing-xs);
-        }
-        .v-img-1lcz span {
-            font-family: var(--font-mono);
-            font-weight: 700;
-            font-size: 1.3rem;
-            color: var(--teal-glow);
-            letter-spacing: -0.5px;
-        }
-        .n-head-aqyu {
-            display: flex;
-            gap: var(--spacing-md);
-            list-style: none;
-        }
-        .n-head-aqyu a {
-            color: var(--text-muted);
-            text-decoration: none;
-            font-size: 0.9rem;
-            font-weight: 600;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-            transition: color 0.2s;
-            padding-bottom: 2px;
-            border-bottom: 2px solid transparent;
-        }
-        .n-head-aqyu a:hover,
-        .n-head-aqyu a.x-body-re {
-            color: var(--teal-glow);
-            border-bottom-color: var(--teal-glow);
-        }
-        .hamburger-menu {
-            display: none;
-            background: none;
-            border: none;
-            color: var(--teal-glow);
-            font-size: 1.8rem;
-            cursor: pointer;
-        }
-        main {
-            position: relative;
-            z-index: 1;
-            max-width: 900px;
-            margin: 0 auto;
-            padding: var(--spacing-lg) var(--spacing-md) var(--spacing-xl);
-        }
-        .hero-block {
-            border-left: 4px solid var(--teal);
-            padding-left: var(--spacing-md);
-            margin-bottom: var(--spacing-xl);
-        }
-        .hero-block h1 {
-            font-size: clamp(2rem, 6vw, 3.2rem);
-            font-weight: 900;
-            color: var(--teal-glow);
-            line-height: 1.2;
-            letter-spacing: -1px;
-            text-transform: uppercase;
-        }
-        .hero-block .sub {
-            color: var(--text-muted);
-            font-size: 1rem;
-            margin-top: var(--spacing-xs);
-            font-family: var(--font-mono);
-        }
-        .section-title {
-            font-size: 1.6rem;
-            font-weight: 800;
-            color: var(--teal);
-            border-bottom: 2px solid var(--border);
-            padding-bottom: var(--spacing-xs);
-            margin-top: var(--spacing-xl);
-            margin-bottom: var(--spacing-md);
-            text-transform: uppercase;
-        }
-        .card-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-            gap: var(--spacing-md);
-            margin-bottom: var(--spacing-lg);
-        }
-        .card {
-            background: var(--surface);
-            border: 1px solid var(--border);
-            padding: var(--spacing-md);
-            border-radius: var(--radius);
-            transition: border-color 0.2s;
-        }
-        .card:hover {
-            border-color: var(--teal-dim);
-        }
-        .card h3 {
-            color: var(--teal-glow);
-            font-size: 1.1rem;
-            margin-bottom: var(--spacing-xs);
-            display: flex;
-            align-items: center;
-            gap: 0.4rem;
-        }
-        .card p {
-            color: var(--text-muted);
-            font-size: 0.95rem;
-        }
-        .faq-item {
-            border-bottom: 1px solid var(--border);
-            padding: var(--spacing-md) 0;
-        }
-        .faq-item h4 {
-            color: var(--teal-glow);
-            font-size: 1.1rem;
-            margin-bottom: var(--spacing-xs);
-        }
-        .faq-item p {
-            color: var(--text-muted);
-        }
-        footer {
-            text-align: center;
-            padding: var(--spacing-lg);
-            color: var(--text-muted);
-            font-size: 0.8rem;
-            border-top: 1px solid var(--border);
-            position: relative;
-            z-index: 1;
-        }
-        @media (max-width: 768px) {
-            .n-head-aqyu {
-                display: none;
-                flex-direction: column;
-                width: 100%;
-                background: var(--surface2);
-                padding: var(--spacing-sm);
-                margin-top: var(--spacing-xs);
-            }
-            .n-head-aqyu.active {
-                display: flex;
-            }
-            .hamburger-menu {
-                display: block;
-            }
-            .k-btn-2fpc {
-                flex-wrap: wrap;
-            }
-        }
-    </style>
-  <meta property="og:url" content="https://dangsan-spot-review.hardcoreroom.com/about.html">
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>당산 유흥 꿀팁 — 상세 정보 + 지역 시그널</title>
+ <meta name="description" content="당산 유흥을 급하게 결정해야 한다면 감상 말고 기준을 봐야 한다. 인원·목적·시간대별로 달라지는 선택지를 눈에 보이는 것과 확인해야 할 것으로 나누어 정리한 가이드.">
+ <meta name="keywords" content="당산 유흥, 당산 유흥 꿀팁, 당산역 유흥, 당산 술집, 당산 놀거리">
+ <link rel="canonical" href="https://dangsan-spot-review.hardcoreroom.com/about.html">
+ <meta property="og:title" content="당산 유흥 꿀팁 — 상세 정보 + 지역 시그널">
+ <meta property="og:description" content="당산 유흥을 급하게 결정해야 한다면 감상 말고 기준을 봐야 한다. 인원·목적·시간대별로 달라지는 선택지를 눈에 보이는 것과 확인해야 할 것으로 나누어 정리한 가이드.">
+ <style>
+ *, *::before, *::after {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ }
+ :root {
+ --bg: #0a0f0f;
+ --surface: #111917;
+ --surface2: #18211e;
+ --teal: #0d9488;
+ --teal-glow: #2dd4bf;
+ --teal-dim: #0f766e;
+ --text: #d1d5db;
+ --text-muted: #9ca3af;
+ --border: #1e2b27;
+ --radius: 0.25rem;
+ --font-mono: 'Courier New', monospace;
+ --font-sans: system-ui, -apple-system, sans-serif;
+ --spacing-xs: 0.5rem;
+ --spacing-sm: 1rem;
+ --spacing-md: 1.5rem;
+ --spacing-lg: 2.5rem;
+ --spacing-xl: 4rem;
+ }
+ html {
+ font-size: 16px;
+ scroll-behavior: smooth;
+ }
+ body {
+ background-color: var(--bg);
+ color: var(--text);
+ font-family: var(--font-sans);
+ line-height: 1.7;
+ position: relative;
+ min-height: 100vh;
+ overflow-x: hidden;
+ }
+ body::before {
+ content: "";
+ position: fixed;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ background-image: 
+ linear-gradient(rgba(13, 148, 136, 0.03) 1px, transparent 1px),
+ linear-gradient(90deg, rgba(13, 148, 136, 0.03) 1px, transparent 1px);
+ background-size: 40px 40px;
+ pointer-events: none;
+ z-index: 0;
+ }
+ .k-btn-2fpc {
+ position: sticky;
+ top: 0;
+ z-index: 100;
+ background-color: rgba(10, 15, 15, 0.92);
+ backdrop-filter: blur(12px);
+ border-bottom: 2px solid var(--border);
+ padding: var(--spacing-sm) var(--spacing-md);
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ flex-wrap: wrap;
+ }
+ .v-img-1lcz {
+ display: flex;
+ align-items: center;
+ gap: var(--spacing-xs);
+ }
+ .v-img-1lcz span {
+ font-family: var(--font-mono);
+ font-weight: 700;
+ font-size: 1.3rem;
+ color: var(--teal-glow);
+ letter-spacing: -0.5px;
+ }
+ .n-head-aqyu {
+ display: flex;
+ gap: var(--spacing-md);
+ list-style: none;
+ }
+ .n-head-aqyu a {
+ color: var(--text-muted);
+ text-decoration: none;
+ font-size: 0.9rem;
+ font-weight: 600;
+ text-transform: uppercase;
+ letter-spacing: 0.5px;
+ transition: color 0.2s;
+ padding-bottom: 2px;
+ border-bottom: 2px solid transparent;
+ }
+ .n-head-aqyu a:hover,
+ .n-head-aqyu a.x-body-re {
+ color: var(--teal-glow);
+ border-bottom-color: var(--teal-glow);
+ }
+ .hamburger-menu {
+ display: none;
+ background: none;
+ border: none;
+ color: var(--teal-glow);
+ font-size: 1.8rem;
+ cursor: pointer;
+ }
+ main {
+ position: relative;
+ z-index: 1;
+ max-width: 900px;
+ margin: 0 auto;
+ padding: var(--spacing-lg) var(--spacing-md) var(--spacing-xl);
+ }
+ .hero-block {
+ border-left: 4px solid var(--teal);
+ padding-left: var(--spacing-md);
+ margin-bottom: var(--spacing-xl);
+ }
+ .hero-block h1 {
+ font-size: clamp(2rem, 6vw, 3.2rem);
+ font-weight: 900;
+ color: var(--teal-glow);
+ line-height: 1.2;
+ letter-spacing: -1px;
+ text-transform: uppercase;
+ }
+ .hero-block .sub {
+ color: var(--text-muted);
+ font-size: 1rem;
+ margin-top: var(--spacing-xs);
+ font-family: var(--font-mono);
+ }
+ .section-title {
+ font-size: 1.6rem;
+ font-weight: 800;
+ color: var(--teal);
+ border-bottom: 2px solid var(--border);
+ padding-bottom: var(--spacing-xs);
+ margin-top: var(--spacing-xl);
+ margin-bottom: var(--spacing-md);
+ text-transform: uppercase;
+ }
+ .card-grid {
+ display: grid;
+ grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+ gap: var(--spacing-md);
+ margin-bottom: var(--spacing-lg);
+ }
+ .card {
+ background: var(--surface);
+ border: 1px solid var(--border);
+ padding: var(--spacing-md);
+ border-radius: var(--radius);
+ transition: border-color 0.2s;
+ }
+ .card:hover {
+ border-color: var(--teal-dim);
+ }
+ .card h3 {
+ color: var(--teal-glow);
+ font-size: 1.1rem;
+ margin-bottom: var(--spacing-xs);
+ display: flex;
+ align-items: center;
+ gap: 0.4rem;
+ }
+ .card p {
+ color: var(--text-muted);
+ font-size: 0.95rem;
+ }
+ .faq-item {
+ border-bottom: 1px solid var(--border);
+ padding: var(--spacing-md) 0;
+ }
+ .faq-item h4 {
+ color: var(--teal-glow);
+ font-size: 1.1rem;
+ margin-bottom: var(--spacing-xs);
+ }
+ .faq-item p {
+ color: var(--text-muted);
+ }
+ footer {
+ text-align: center;
+ padding: var(--spacing-lg);
+ color: var(--text-muted);
+ font-size: 0.8rem;
+ border-top: 1px solid var(--border);
+ position: relative;
+ z-index: 1;
+ }
+ @media (max-width: 768px) {
+ .n-head-aqyu {
+ display: none;
+ flex-direction: column;
+ width: 100%;
+ background: var(--surface2);
+ padding: var(--spacing-sm);
+ margin-top: var(--spacing-xs);
+ }
+ .n-head-aqyu.active {
+ display: flex;
+ }
+ .hamburger-menu {
+ display: block;
+ }
+ .k-btn-2fpc {
+ flex-wrap: wrap;
+ }
+ }
+ </style>
+ <meta property="og:url" content="https://dangsan-spot-review.hardcoreroom.com/about.html">
   <meta property="og:type" content="website">
   <meta name="twitter:card" content="summary">
 </head>
 <body>
-    <header class="k-btn-2fpc">
-        <div class="v-img-1lcz">
-            <span>DANGSAN_NIGHT</span>
-        </div>
-        <button class="hamburger-menu" onclick="document.querySelector('.n-head-aqyu').classList.toggle('active')">☰</button>
-        <ul class="n-head-aqyu">
-            <li><a href="#">홈</a></li>
-            <li><a href="#">정보</a></li>
-            <li><a href="#" class="x-body-re">꿀팁</a></li>
-            <li><a href="#">루트</a></li>
-            <li><a href="#">FAQ</a></li>
-        </ul>
-    </header>
+ <header class="k-btn-2fpc">
+ <div class="v-img-1lcz">
+ <span>DANGSAN_NIGHT</span>
+ </div>
+ <button class="hamburger-menu" onclick="document.querySelector('.n-head-aqyu').classList.toggle('active')">☰</button>
+ <ul class="n-head-aqyu">
+ <li><a href="#">홈</a></li>
+ <li><a href="#">정보</a></li>
+ <li><a href="#" class="x-body-re">꿀팁</a></li>
+ <li><a href="#">루트</a></li>
+ <li><a href="#">FAQ</a></li>
+ </ul>
+ </header>
 
-    <main>
-        <section class="hero-block">
-            <h1>당산 유흥 꿀팁<br>상세 정보 편</h1>
-            <p class="sub">감상은 버린다. 눈에 보이는 것만 판단한다. 시간대·인원·목적별 상세 기준.</p>
-        </section>
+ <main>
+ <section class="hero-block">
+ <h1>당산 유흥 꿀팁<br>상세 정보 편</h1>
+ <p class="sub">감상은 버린다. 눈에 보이는 것만 판단한다. 시간대·인원·목적별 상세 기준.</p>
+ </section>
 
-        <section>
-            <h2 class="section-title">01 — 시간대별 분기</h2>
-            <div class="card-grid">
-                <div class="card">
-                    <h3>⚡ 19:00–21:00</h3>
-                    <p>퇴근 직후 가볍게 맥주 한 잔 걸치기에 최적. 당산역 3번 출구 인근의 스몰펍은 자리 회전이 빨라 대기 없이 진입 가능하다. 테이블 간 거리가 좁지만 혼잡 시간대 전이라 답답함이 덜하다.</p>
-                </div>
-                <div class="card">
-                    <h3>🔥 21:00–23:00</h3>
-                    <p>본격적인 유흥 피크. 예약 없이 4인 이상 진입은 사실상 불가능. 이 시간대는 혼술보다 소규모 모임이 대부분이므로 미리 전화로 테이블 상태를 확인해야 한다. 눈으로 보는 것: 입구에 서 있는 대기열의 성격.</p>
-                </div>
-                <div class="card">
-                    <h3>🌙 23:00 이후</h3>
-                    <p>늦은 시간대는 선택지가 급감하지만, 오히려 진성 고객만 남아 분위기가 일관적이다. 1차를 마치고 2차로 넘어오는 그룹이 많으므로, 피로감이 묻은 자리보다는 바 테이블 자리를 고르는 게 낫다. 바텐더와의 거리로 서비스 속도를 예측할 수 있다.</p>
-                </div>
-            </div>
-            <p>시간대별로 당산 유흥의 성격은 완전히 달라진다. 같은 공간이라도 8시와 11시의 음압, 조도, 고객 구성은 전혀 다르다. 눈에 보이는 것들만 기준으로 삼아야 한다. 입구에서부터 실내를 스캔하는 습관을 들여라. 의자의 재질, 테이블의 스크래치 흔적, 메뉴판의 구김 정도 — 이런 것들은 모두 운영 기간과 관리 상태를 말해준다. 시간대를 잘못 잡으면 같은 돈을 내고도 형편없는 자리에 앉게 될 확률이 높다. 특히 평일과 주말의 온도 차는 크기 때문에, 방문 요일을 기준으로 먼저 분류한 뒤 시간대를 좁히는 식으로 접근해야 한다.</p>
-        </section>
+ <section>
+ <h2 class="section-title">01 — 시간대별 분기</h2>
+ <div class="card-grid">
+ <div class="card">
+ <h3>⚡ 19:00–21:00</h3>
+ <p>퇴근 직후 가볍게 맥주 한 잔 걸치기에 최적. 당산역 3번 출구 인근의 스몰펍은 자리 회전이 빨라 대기 없이 진입 가능하다. 테이블 간 거리가 좁지만 혼잡 시간대 전이라 답답함이 덜하다.</p>
+ </div>
+ <div class="card">
+ <h3>🔥 21:00–23:00</h3>
+ <p>본격적인 유흥 피크. 예약 없이 4인 이상 진입은 사실상 불가능. 이 시간대는 혼술보다 소규모 모임이 대부분이므로 미리 전화로 테이블 상태를 확인해야 한다. 눈으로 보는 것: 입구에 서 있는 대기열의 성격.</p>
+ </div>
+ <div class="card">
+ <h3>🌙 23:00 이후</h3>
+ <p>늦은 시간대는 선택지가 급감하지만, 오히려 진성 고객만 남아 분위기가 일관적이다. 1차를 마치고 2차로 넘어오는 그룹이 많으므로, 피로감이 묻은 자리보다는 바 테이블 자리를 고르는 게 낫다. 바텐더와의 거리로 서비스 속도를 예측할 수 있다.</p>
+ </div>
+ </div>
+ <p>시간대별로 당산 유흥의 성격은 완전히 달라진다. 같은 공간이라도 8시와 11시의 음압, 조도, 고객 구성은 전혀 다르다. 눈에 보이는 것들만 기준으로 삼아야 한다. 입구에서부터 실내를 스캔하는 습관을 들여라. 의자의 재질, 테이블의 스크래치 흔적, 메뉴판의 구김 정도 — 이런 것들은 모두 운영 기간과 관리 상태를 말해준다. 시간대를 잘못 잡으면 같은 돈을 내고도 형편없는 자리에 앉게 될 확률이 높다. 특히 평일과 주말의 온도 차는 크기 때문에, 방문 요일을 기준으로 먼저 분류한 뒤 시간대를 좁히는 식으로 접근해야 한다.</p>
+ </section>
 
-        <section>
-            <h2 class="section-title">02 — 인원 수에 따른 전략</h2>
-            <div class="card-grid">
-                <div class="card">
-                    <h3>👤 1인</h3>
-                    <p>혼술은 바 자리의 확보가 전부다. 다만, 당산에는 바 테이블이 6석 미만인 곳이 대다수라 미리 진입해야 한다. 1인은 주문 속도가 빠르므로 회전율 관리를 하는 점장에게 오히려 환영받는다.</p>
-                </div>
-                <div class="card">
-                    <h3>👥 2–3인</h3>
-                    <p>가장 유연한 조합. 작은 테이블을 찾으면 대부분 수응된다. 중요한 것은 좌석 간격으로, 팔꿈치가 옆 테이블에 닿을 정도의 밀착 좌석은 피해야 한다. 당산의 낡은 건물 구조상 불가피한 경우도 있다.</p>
-                </div>
-                <div class="card">
-                    <h3>👥👥 4인 이상</h3>
-                    <p>이 구간부터는 예약이 의무다. 현장에서 4인 테이블을 요구하는 것은 무리수에 가깝다. 2층이나 루프탑을 보유한 가게를 우선적으로 찾아야 하며, 공간의 반응 속도를 미리 확인하라는 의미다.</p>
-                </div>
-            </div>
-            <p>인원 수는 단순한 숫자가 아니다. 1인과 4인의 방문은 완전히 다른 유흥 경험을 생성한다. 1인은 공간의 구석을 차지하고, 4인은 공간의 중심을 요구한다. 따라서 당산 유흥 꿀팁은 언제나 인원을 먼저 말한다. 인원을 기준으로 필터링하지 않으면 모든 정보가 흐려진다. 특히 주말 밤 4인 방문은 대부분의 가게에서 거절당하기 일쑤다. 이런 거절은 서비스의 질과 무관하며, 단지 공간적 한계의 표현일 뿐이다. 그러므로 인원을 확인한 후에 장소를 고르는 것이 아니라, 인원에 맞는 장소를 우선 추출한 뒤 그 안에서 취향을 고르는 역순 전략을 써야 한다.</p>
-        </section>
+ <section>
+ <h2 class="section-title">02 — 인원 수에 따른 전략</h2>
+ <div class="card-grid">
+ <div class="card">
+ <h3>👤 1인</h3>
+ <p>혼술은 바 자리의 확보가 전부다. 다만, 당산에는 바 테이블이 6석 미만인 곳이 대다수라 미리 진입해야 한다. 1인은 주문 속도가 빠르므로 회전율 관리를 하는 점장에게 오히려 환영받는다.</p>
+ </div>
+ <div class="card">
+ <h3>👥 2–3인</h3>
+ <p>가장 유연한 조합. 작은 테이블을 찾으면 대부분 수응된다. 중요한 것은 좌석 간격으로, 팔꿈치가 옆 테이블에 닿을 정도의 밀착 좌석은 피해야 한다. 당산의 낡은 건물 구조상 불가피한 경우도 있다.</p>
+ </div>
+ <div class="card">
+ <h3>👥👥 4인 이상</h3>
+ <p>이 구간부터는 예약이 의무다. 현장에서 4인 테이블을 요구하는 것은 무리수에 가깝다. 2층이나 루프탑을 보유한 가게를 우선적으로 찾아야 하며, 공간의 반응 속도를 미리 확인하라는 의미다.</p>
+ </div>
+ </div>
+ <p>인원 수는 단순한 숫자가 아니다. 1인과 4인의 방문은 완전히 다른 유흥 경험을 생성한다. 1인은 공간의 구석을 차지하고, 4인은 공간의 중심을 요구한다. 따라서 당산 유흥 꿀팁은 언제나 인원을 먼저 말한다. 인원을 기준으로 필터링하지 않으면 모든 정보가 흐려진다. 특히 주말 밤 4인 방문은 대부분의 가게에서 거절당하기 일쑤다. 이런 거절은 서비스의 질과 무관하며, 단지 공간적 한계의 표현일 뿐이다. 그러므로 인원을 확인한 후에 장소를 고르는 것이 아니라, 인원에 맞는 장소를 우선 추출한 뒤 그 안에서 취향을 고르는 역순 전략을 써야 한다.</p>
+ </section>
 
-        <section>
-            <h2 class="section-title">03 — 확인해야 할 기준 목록</h2>
-            <p>아래 항목들은 주관적 인상을 배제하고 물리적/객관적으로 확인 가능한 것들만 엄선한 것이다. 당산 유흥에서 시간을 낭비하지 않으려면 이 체크리스트를 머리에 넣고 다녀야 한다.</p>
-            <ul style="list-style: none; padding: var(--spacing-md) 0; display: flex; flex-direction: column; gap: var(--spacing-sm);">
-                <li style="border-left: 3px solid var(--teal); padding-left: var(--spacing-sm);"><strong>▶ 테이블 간 거리</strong> — 팔꿈치 닿으면 탈락.</li>
-                <li style="border-left: 3px solid var(--teal); padding-left: var(--spacing-sm);"><strong>▶ 조도 레벨</strong> — 너무 어두우면 위생 확인 불가. 적당한 어둠은 사생활 보호.</li>
-                <li style="border-left: 3px solid var(--teal); padding-left: var(--spacing-sm);"><strong>▶ 음압 측정</strong> — 대화가 안 들리면 유흥이 아니라 노동이 된다.</li>
-                <li style="border-left: 3px solid var(--teal); padding-left: var(--spacing-sm);"><strong>▶ 메뉴판 상태</strong> — 낡은 귀퉁이, 지워진 글자는 방치의 신호.</li>
-                <li style="border-left: 3px solid var(--teal); padding-left: var(--spacing-sm);"><strong>▶ 화장실 진입 경로</strong> — 경로에 장애물이 많으면 운영의 미숙함.</li>
-                <li style="border-left: 3px solid var(--teal); padding-left: var(--spacing-sm);"><strong>▶ 환기 상태</strong> — 냄새가 옷에 배는 곳은 2차로 부적합.</li>
-                <li style="border-left: 3px solid var(--teal); padding-left: var(--spacing-sm);"><strong>▶ 결제 방식</strong> — 카드/현금 사전 확인. 현금 전용은 추적 불가 이슈.</li>
-            </ul>
-            <p>기준을 가지고 들어가면 공간은 당신에게 훨씬 더 많은 정보를 준다. 감상적 평가인 "분위기가 좋다"라는 말은 아무 의미가 없다. 분위기는 시간과 함께 변한다. 그러나 테이블 간격은 변하지 않는다. 환기구의 위치는 변하지 않는다. 이런 불변의 요소들을 먼저 확인한 후, 거기에 감상적 평가를 덧붙이는 게 순서다. 대부분의 실패한 유흥 탐방은 기준 없는 감상에서 시작한다. 당산 유흥의 상세 정보란 바로 이런 불변의 기준들을 데이터처럼 정리하는 작업이다.</p>
-        </section>
+ <section>
+ <h2 class="section-title">03 — 확인해야 할 기준 목록</h2>
+ <p>아래 항목들은 주관적 인상을 배제하고 물리적/객관적으로 확인 가능한 것들만 엄선한 것이다. 당산 유흥에서 시간을 낭비하지 않으려면 이 체크리스트를 머리에 넣고 다녀야 한다.</p>
+ <ul style="list-style: none; padding: var(--spacing-md) 0; display: flex; flex-direction: column; gap: var(--spacing-sm);">
+ <li style="border-left: 3px solid var(--teal); padding-left: var(--spacing-sm);"><strong>▶ 테이블 간 거리</strong> — 팔꿈치 닿으면 탈락.</li>
+ <li style="border-left: 3px solid var(--teal); padding-left: var(--spacing-sm);"><strong>▶ 조도 레벨</strong> — 너무 어두우면 위생 확인 불가. 적당한 어둠은 사생활 보호.</li>
+ <li style="border-left: 3px solid var(--teal); padding-left: var(--spacing-sm);"><strong>▶ 음압 측정</strong> — 대화가 안 들리면 유흥이 아니라 노동이 된다.</li>
+ <li style="border-left: 3px solid var(--teal); padding-left: var(--spacing-sm);"><strong>▶ 메뉴판 상태</strong> — 낡은 귀퉁이, 지워진 글자는 방치의 신호.</li>
+ <li style="border-left: 3px solid var(--teal); padding-left: var(--spacing-sm);"><strong>▶ 화장실 진입 경로</strong> — 경로에 장애물이 많으면 운영의 미숙함.</li>
+ <li style="border-left: 3px solid var(--teal); padding-left: var(--spacing-sm);"><strong>▶ 환기 상태</strong> — 냄새가 옷에 배는 곳은 2차로 부적합.</li>
+ <li style="border-left: 3px solid var(--teal); padding-left: var(--spacing-sm);"><strong>▶ 결제 방식</strong> — 카드/현금 사전 확인. 현금 전용은 추적 불가 이슈.</li>
+ </ul>
+ <p>기준을 가지고 들어가면 공간은 당신에게 훨씬 더 많은 정보를 준다. 감상적 평가인 "분위기가 좋다"라는 말은 아무 의미가 없다. 분위기는 시간과 함께 변한다. 그러나 테이블 간격은 변하지 않는다. 환기구의 위치는 변하지 않는다. 이런 불변의 요소들을 먼저 확인한 후, 거기에 감상적 평가를 덧붙이는 게 순서다. 대부분의 실패한 유흥 탐방은 기준 없는 감상에서 시작한다. 당산 유흥의 상세 정보란 바로 이런 불변의 기준들을 데이터처럼 정리하는 작업이다.</p>
+ </section>
 
-        <section>
-            <h2 class="section-title">04 — FAQ: 자주 묻는 반응들</h2>
-            <div class="faq-item">
-                <h4>Q: 당산역에서 가장 가까운 유흥 스포트는 어딘가요?</h4>
-                <p>거리로만 보면 2번 출구 직선 방향의 몇 곳이 있지만, 거리가 전부가 아니다. 바로 옆이라는 이유로 선택하면 좌석 질을 놓칠 확률이 높다. 도보 5분 이내로 넓혀서 확인해야 한다.</p>
-            </div>
-            <div class="faq-item">
-                <h4>Q: 평일과 주말의 차이가 크나요?</h4>
-                <p>매우 크다. 평일 저녁은 퇴근자들의 간단한 한잔이 많고, 주말은 모임 중심으로 돌아간다. 같은 장소라도 평일과 주말은 다른 가게라고 봐야 한다. 시간대와 요일을 교차해서 생각해야 한다.</p>
-            </div>
-            <div class="faq-item">
-                <h4>Q: 혼자 가도 괜찮은가요?</h4>
-                <p>당산은 혼술 문화가 정착된 지역이다. 다만 바 테이블이 없는 곳은 피해야 한다. 혼자는 자칫하면 직원의 시선을 불필요하게 받을 수 있으므로, 자유로운 좌석 구조를 가진 곳을 우선하라.</p>
-            </div>
-            <div class="faq-item">
-                <h4>Q: 당산 유흥의 가장 큰 함정은 무엇인가요?</h4>
-                <p>외관에 속는 것이다. 간판이 예쁘거나 외관이 세련됐다고 해서 내부의 서비스와 정비례하지 않는다. 오히려 외관에 돈을 많이 쓴 곳일수록 음료나 안주 본질에서 비용을 절감했을 가능성이 높다.</p>
-            </div>
-        </section>
-    </main>
+ <section>
+ <h2 class="section-title">04 — FAQ: 자주 묻는 반응들</h2>
+ <div class="faq-item">
+ <h4>Q: 당산역에서 가장 가까운 유흥 스포트는 어딘가요?</h4>
+ <p>거리로만 보면 2번 출구 직선 방향의 몇 곳이 있지만, 거리가 전부가 아니다. 바로 옆이라는 이유로 선택하면 좌석 질을 놓칠 확률이 높다. 도보 5분 이내로 넓혀서 확인해야 한다.</p>
+ </div>
+ <div class="faq-item">
+ <h4>Q: 평일과 주말의 차이가 크나요?</h4>
+ <p>매우 크다. 평일 저녁은 퇴근자들의 간단한 한잔이 많고, 주말은 모임 중심으로 돌아간다. 같은 장소라도 평일과 주말은 다른 가게라고 봐야 한다. 시간대와 요일을 교차해서 생각해야 한다.</p>
+ </div>
+ <div class="faq-item">
+ <h4>Q: 혼자 가도 괜찮은가요?</h4>
+ <p>당산은 혼술 문화가 정착된 지역이다. 다만 바 테이블이 없는 곳은 피해야 한다. 혼자는 자칫하면 직원의 시선을 불필요하게 받을 수 있으므로, 자유로운 좌석 구조를 가진 곳을 우선하라.</p>
+ </div>
+ <div class="faq-item">
+ <h4>Q: 당산 유흥의 가장 큰 함정은 무엇인가요?</h4>
+ <p>외관에 속는 것이다. 간판이 예쁘거나 외관이 세련됐다고 해서 내부의 서비스와 정비례하지 않는다. 오히려 외관에 돈을 많이 쓴 곳일수록 음료나 안주 본질에서 비용을 절감했을 가능성이 높다.</p>
+ </div>
+ </section>
+ </main>
 
-    <footer>
-        <p>© 2025 DANGSAN NIGHT TRANSIT MAP — 모든 정보는 현장 확인 기준으로 작성됨.</p>
-    </footer>
+ <footer>
+ <p>© 2025 DANGSAN NIGHT TRANSIT MAP — 모든 정보는 현장 확인 기준으로 작성됨.</p>
+ </footer>
 </body>
 </html>
